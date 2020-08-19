@@ -17,7 +17,7 @@ function MainWindow({ startCall, clientId }) {
     <div className="container main-window">
       <div>
         <h3>
-          Hi, your ID is
+          Olá, seu ID é
           <input
             type="text"
             className="txt-clientId"
@@ -25,14 +25,14 @@ function MainWindow({ startCall, clientId }) {
             readOnly
           />
         </h3>
-        <h4>Get started by calling a friend below</h4>
+        <h4>Comece ligando para um amigo abaixo</h4>
       </div>
       <div>
         <input
           type="text"
           className="txt-clientId"
           spellCheck={false}
-          placeholder="Your friend ID"
+          placeholder="ID do seu amigo"
           onChange={(event) => setFriendID(event.target.value)}
         />
         <div>
